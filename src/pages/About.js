@@ -13,7 +13,7 @@ const About = () => {
         </p>{" "}
         <br />
         <p>
-          The Project was built with Styled components , React, Context API , React Testing Library and Framer Motion.
+          The Project was built with Styled Components , React, Context API , React Testing Library and Framer Motion.
         </p>{" "}
         <br />
         <p>It was nice to learn the use of Context API in React.</p>
@@ -24,7 +24,7 @@ const About = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={GithubIcon} alt="" />
+          <img src={GithubIcon} alt="github-icon" />
           View on Github
         </a>
       </Heading>
