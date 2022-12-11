@@ -8,15 +8,14 @@ const About = () => {
         <h1>About</h1> <br />
         <p>
           This project creates a product listing page and implements a search
-          using the products title and a filter functionality, filtering
+          using the product's title and a filter functionality, filtering
           products based on the categories.
         </p>{" "}
         <br />
         <p>
-          The Project was built with Styled Components , React, Context API , React Testing Library and Framer Motion.
+          The Project was built with Styled Components, React, Context API,
+          React Testing Library, and Framer Motion.
         </p>{" "}
-        <br />
-        <p>It was nice to learn the use of Context API in React.</p>
         <br />
         <a
           className="btn"
