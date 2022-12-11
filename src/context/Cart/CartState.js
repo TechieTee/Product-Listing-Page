@@ -7,7 +7,7 @@ import { sumItems } from "./CartReducer";
 const storage = localStorage.getItem("cartItems")
   ? JSON.parse(localStorage.getItem("cartItems"))
   : [];
-
+console.log(storage)
 const CartState = ({ children }) => {
   //Initial State of the cart
   // const initialState = {

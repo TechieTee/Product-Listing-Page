@@ -1,6 +1,5 @@
 import CartItem from "../components/CartItem";
 import { useContext } from "react";
-
 import styled from "styled-components";
 import Checkout from "../components/Checkout";
 import { Link } from "react-router-dom";
@@ -36,7 +35,6 @@ const Cart = () => {
         <div>
           {
             <CartItemWrapper>
-            
               {cartItems.length === 0 ? (
                 <h4 style={{}}>Cart is empty</h4>
               ) : (

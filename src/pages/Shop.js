@@ -20,7 +20,6 @@ const Shop = () => {
     const productData = jsonData.products;
     setItems(productData);
     setFiltered(productData);
-    console.log("lll", items);
   };
 
   // Search by item's title
@@ -67,9 +66,7 @@ const Shop = () => {
         setActiveCategory={setActiveCategory}
       />
 
-      <ProductsContainer
-       
-      >
+      <ProductsContainer>
         {search(filtered).map((item) => (
           <ProductCard key={item.id} product={item} />
         ))}
