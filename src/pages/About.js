@@ -20,7 +20,7 @@ const About = () => {
         <br />
         <a
           className="btn"
-          href="https://github.com/techietee/"
+          href="https://github.com/TechieTee/Product-Listing-Page"
           target="_blank"
           rel="noreferrer"
         >
