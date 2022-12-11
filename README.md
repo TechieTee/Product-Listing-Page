@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[VIEW LIVE DEMO](http://localhost:3000)
+[VIEW LIVE DEMO](https://products-listing.netlify.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
